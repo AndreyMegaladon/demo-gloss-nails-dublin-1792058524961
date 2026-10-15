@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gloss Nails Dublin | Book Appointment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-50 text-zinc-900 font-sans">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-zinc-200 h-20 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tight text-zinc-900">Gloss Nails</a>
+            <nav class="hidden md:flex items-center space-x-2">
+                <a href="index.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-zinc-600 hover:text-zinc-900 font-medium transition">Home</a>
+                <a href="about.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-zinc-600 hover:text-zinc-900 font-medium transition">About</a>
+                <a href="services.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-zinc-600 hover:text-zinc-900 font-medium transition">Menu</a>
+                <a href="gallery.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-zinc-600 hover:text-zinc-900 font-medium transition">Gallery</a>
+                <a href="booking.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 font-medium">Book</a>
+                <a href="contacts.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-zinc-600 hover:text-zinc-900 font-medium transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-20">
+        <div class="mb-6">
+            <p class="text-sm text-zinc-500">Home > Book Appointment</p>
+        </div>
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-bold mb-4">Book Your Appointment</h1>
+            <p class="text-zinc-600 max-w-xl mx-auto">Fill out the form below to request your luxury nail session with us.</p>
+        </div>
+
+        <div class="max-w-2xl mx-auto bg-white rounded-3xl shadow-2xl p-10">
+            <form action="https://formsubmit.co/glossnailsdublin@gmail.com" method="POST" class="space-y-6">
+                <div>
+                    <label class="block text-sm font-semibold mb-2 text-zinc-700">Your Name</label>
+                    <input type="text" name="name" required class="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-100 outline-none transition" placeholder="Marta Smith">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-2 text-zinc-700">Phone Number</label>
+                    <input type="tel" name="phone" required class="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-100 outline-none transition" placeholder="+353 ...">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-2 text-zinc-700">Select Service</label>
+                    <select name="service" required class="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-100 outline-none transition bg-white">
+                        <option value="Gel Polish Only">Gel Polish Only — €40</option>
+                        <option value="Gel Polish REFILL">Gel Polish REFILL — From €45</option>
+                        <option value="Builder Gel Only">Builder Gel Only (First Application) — From €45</option>
+                        <option value="Builder Gel REFILL Short-Med">Builder Gel Only REFILL (Short - Medium) — €60</option>
+                        <option value="Builder Gel REFILL Med-Long">Builder Gel Only REFILL (Medium - Long) — €65</option>
+                        <option value="Russian Manicure">E-File Russian Manicure — €14.25</option>
+                        <option value="Minimal Nail Art">Minimal Nail Art — €15</option>
+                        <option value="Maxi Nail Art">Maxi Nail Art — €20</option>
+                        <option value="French Short">French (Short Length) — €10</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-2 text-zinc-700">Preferred Date</label>
+                    <input type="date" name="date" required class="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-100 outline-none transition">
+                </div>
+                <button type="submit" class="w-full bg-gradient-to-r from-amber-500 to-orange-500 text-white py-5 rounded-xl text-lg font-bold hover:shadow-xl transition">Confirm Booking Request</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-zinc-900 text-zinc-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Gloss Nails Dublin</h3>
+                <p class="text-sm text-zinc-400">Bespoke hand-painted nails and luxury pedicures in the heart of Crumlin.</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Contact Info</h3>
+                <p class="text-sm text-zinc-400 mb-2">20a Windmill Road, Crumlin, Dublin, Ireland</p>
+                <p class="text-sm text-zinc-400 mb-2">+35315674168</p>
+                <p class="text-sm text-zinc-400">glossnailsdublin@gmail.com</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Quick Links</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="services.html" class="hover:text-white transition">Menu</a></li>
+                    <li><a href="booking.html" class="hover:text-white transition">Book Appointment</a></li>
+                    <li><a href="contacts.html" class="hover:text-white transition">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
